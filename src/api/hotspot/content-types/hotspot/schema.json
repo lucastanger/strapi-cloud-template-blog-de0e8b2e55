@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hotspots",
+  "info": {
+    "singularName": "hotspot",
+    "pluralName": "hotspots",
+    "displayName": "Hotspot"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "uid"
+    },
+    "type": {
+      "type": "string"
+    },
+    "animations": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::animation.animation"
+    }
+  }
+}

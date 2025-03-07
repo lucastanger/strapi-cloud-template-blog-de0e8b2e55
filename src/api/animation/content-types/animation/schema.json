@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "animations",
+  "info": {
+    "singularName": "animation",
+    "pluralName": "animations",
+    "displayName": "Animation"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "uid"
+    },
+    "thumbCam": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::camera.camera"
+    }
+  }
+}

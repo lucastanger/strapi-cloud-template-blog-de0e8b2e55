@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cameras",
+  "info": {
+    "singularName": "camera",
+    "pluralName": "cameras",
+    "displayName": "Camera",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "uid"
+    },
+    "cameraType": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::camera-type.camera-type"
+    }
+  }
+}

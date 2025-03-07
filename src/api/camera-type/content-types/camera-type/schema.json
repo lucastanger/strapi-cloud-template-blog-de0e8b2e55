@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "camera_types",
+  "info": {
+    "singularName": "camera-type",
+    "pluralName": "camera-types",
+    "displayName": "CameraType"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "uid"
+    }
+  }
+}
